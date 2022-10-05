@@ -1,7 +1,9 @@
 export const products = [
     {id: 1, title:"pelela", category: "productos",description: "string", price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_949700-MLA45712511270_042021-O.webp" },
     {id: 2, title:"cama", category: "productos",description: "string",price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_847984-MLA43554334074_092020-F.webp" },
-    {id: 3, title:"pelota",category: "productos",description: "string", price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_979078-MLA31053308175_062019-F.webp" }
+    {id: 3, title:"pelota",category: "productos",description: "string", price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_979078-MLA31053308175_062019-F.webp" },
+    {id: 4, title:"alimento",category: "alimentos",description: "string", price: 200, pictureUrl:"https://www.hoplatam.com/img/conocehop/twopacks.png" }
+
 
 ]
 //la imagen tiene q ser png o jpg(asi q modificar porq estas son webp)
