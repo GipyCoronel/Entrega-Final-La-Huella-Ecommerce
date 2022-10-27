@@ -60,15 +60,15 @@ export const getProductsByCategory = (categoryId) => {
     .catch(error => console.warn(error))
 };
 
-const products = [
-    {id: 1, title:"pelela", category: "productos",description: "Pelela mascota", price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_949700-MLA45712511270_042021-O.webp" },
-    {id: 2, title:"cama", category: "productos",description: "Cama mascota",price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_847984-MLA43554334074_092020-F.webp" },
-    {id: 3, title:"pelota",category: "productos",description: "Pelota mascota", price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_979078-MLA31053308175_062019-F.webp" },
-    {id: 4, title:"alimento",category: "alimentos",description: "Alimento mascota", price: 200, pictureUrl:"https://www.hoplatam.com/img/conocehop/twopacks.png" },
-    {id: 5, title:"alimento1",category: "alimentos",description: "Alimento mascota", price: 400, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_913975-MLA44104669270_112020-F.webp" },
-    {id: 6, title:"alimento2",category: "alimentos",description: "Alimento mascota", price: 700, pictureUrl:"https://www.alimentoraza.com/wp-content/uploads/2022/03/RAZA-GATOS-PESCADO_3D_Sin-Kg.jpg" }
+ const products = [
+   {id: 1, title:"pelela", category: "productos",description: "Pelela mascota", price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_949700-MLA45712511270_042021-O.webp" },
+   {id: 2, title:"cama", category: "productos",description: "Cama mascota",price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_847984-MLA43554334074_092020-F.webp" },
+   {id: 3, title:"pelota",category: "productos",description: "Pelota mascota", price: 100, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_979078-MLA31053308175_062019-F.webp" },
+   {id: 4, title:"alimento",category: "alimentos",description: "Alimento mascota", price: 200, pictureUrl:"https://www.hoplatam.com/img/conocehop/twopacks.png" },
+   {id: 5, title:"alimento1",category: "alimentos",description: "Alimento mascota", price: 400, pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_913975-MLA44104669270_112020-F.webp" },
+   {id: 6, title:"alimento2",category: "alimentos",description: "Alimento mascota", price: 700, pictureUrl:"https://www.alimentoraza.com/wp-content/uploads/2022/03/RAZA-GATOS-PESCADO_3D_Sin-Kg.jpg" }
     
-]
+ ]
 
 
 export const createAllProducts = async () => {

@@ -8,9 +8,9 @@ import { createOrder } from "../../utils/orders";
 import OrderModal from "../OrderModal/OrderModal";
 
 const buyerMock = {
-  name: 'coderhouse',
-  phone: '1122334455',
-  email: 'coderhouse@mail.com'
+  name: 'lahuellapetshop',
+  phone: '117777777',
+  email: 'lahuella@mail.com'
 }
 
 const Cart = () => {
